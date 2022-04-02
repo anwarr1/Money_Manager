@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="12dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:minWidth="48dp"
+        android:onClick="ClickMenu"
+        android:src="@drawable/icomenu"></ImageView>
+
+
+    <TextView
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="cursive"
+        android:text="Bienvenue sur Jaybi !"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

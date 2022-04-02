@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Stats"
+        android:id="@+id/drawer_layout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <include layout="@layout/main_toolbar"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+
+                    android:id="@+id/bottom_nav"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="#03A9F4"
+                    app:itemIconTint="@color/white"
+                    app:itemTextColor="@color/white"
+                    app:menu="@menu/bottom_nav"></com.google.android.material.bottomnavigation.BottomNavigationView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardViewGraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="15dp"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="10dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+
+                        <org.eazegraph.lib.charts.PieChart
+                            android:id="@+id/piechartDep"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_weight="1"
+
+                            android:padding="6dp" />
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="20dp"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="18dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginBottom="5dp">
+
+                                <View
+                                    android:layout_width="15dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/R"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Loyer"
+                                    android:paddingLeft="10dp"/>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="18dp"
+                                android:layout_gravity="center_vertical">
+
+                                <View
+                                    android:layout_width="15dp"
+                                    android:layout_height="match_parent"
+                                    android:background="#9DD562"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Santé"
+                                    android:paddingLeft="10dp"/>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="18dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginTop="5dp">
+
+                                <View
+                                    android:layout_width="15dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/colorPrimary"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Shopping"
+                                    android:paddingLeft="10dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="18dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginTop="5dp">
+
+                                <View
+                                    android:layout_width="15dp"
+                                    android:layout_height="match_parent"
+                                    android:background="#EF5350"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Sport"
+                                    android:paddingLeft="10dp"/>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="18dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginTop="5dp">
+
+                                <View
+                                    android:layout_width="15dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@color/Java"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Fast food"
+                                    android:paddingLeft="10dp"/>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="18dp"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginTop="5dp">
+
+                                <View
+                                    android:layout_width="15dp"
+                                    android:layout_height="match_parent"
+                                    android:background="#95928F"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Autre"
+                                    android:paddingLeft="10dp"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/details"
+                    android:layout_width="match_parent"
+                    android:layout_height="328dp"
+                    android:layout_above="@+id/bottom_nav"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/cardViewGraph"
+                    android:layout_marginBottom="39dp"
+                    android:layout_marginEnd="-7dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="-7dp"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginTop="30dp"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="10dp">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="2dp"
+                            android:text="Pourcentage des dépenses par catégories :"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@color/color_two" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-light"
+                                android:text="Loyer"
+                                android:textSize="18sp"
+                                android:paddingLeft="55dp"/>
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:background="@drawable/house"></ImageView>
+
+                            <TextView
+                                android:id="@+id/loyer"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:fontFamily="sans-serif-light"
+                                android:text="0"
+                                android:textAlignment="textEnd"
+                                android:textColor="#E11E1E"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-light"
+                                android:text="Shopping"
+                                android:textSize="18sp"
+                                android:paddingLeft="55dp"/>
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:background="@drawable/shopping"></ImageView>
+
+
+                            <TextView
+                                android:id="@+id/vetements"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="0dp"
+                                android:fontFamily="sans-serif-light"
+                                android:text="0"
+                                android:textAlignment="textEnd"
+                                android:textColor="#E11E1E"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-light"
+                                android:text="Sport"
+                                android:textSize="18sp"
+                                android:paddingLeft="55dp"
+                                />
+
+                            <ImageView
+                                android:layout_width="28dp"
+                                android:layout_height="28dp"
+
+                                android:background="@drawable/sport"></ImageView>
+
+
+                            <TextView
+                                android:id="@+id/sprt"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:fontFamily="sans-serif-light"
+                                android:text="0"
+                                android:textAlignment="textEnd"
+                                android:textColor="#E11E1E"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-light"
+                                android:text="Fast food"
+                                android:textSize="18sp"
+                                android:paddingLeft="55dp"/>
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:background="@drawable/food"></ImageView>
+
+
+                            <TextView
+                                android:id="@+id/food"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:fontFamily="sans-serif-light"
+                                android:text="0"
+                                android:textAlignment="textEnd"
+                                android:textColor="#E11E1E"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-light"
+                                android:text="Santé"
+                                android:textSize="18sp"
+                                android:paddingLeft="55dp"/>
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:background="@drawable/sante"></ImageView>
+
+                            <TextView
+                                android:id="@+id/sante"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:fontFamily="sans-serif-light"
+                                android:text="0"
+                                android:textAlignment="textEnd"
+                                android:textColor="#E11E1E"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_marginTop="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-light"
+                                android:text="Autre"
+                                android:textSize="18sp" />
+
+
+                            <TextView
+                                android:id="@+id/autre"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:fontFamily="sans-serif-light"
+                                android:text="0"
+                                android:textAlignment="textEnd"
+                                android:textColor="#E11E1E"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                        </RelativeLayout>
+
+
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#EDE7E7">
+
+
+            <include layout="@layout/main_nav_drawer"></include>
+        </RelativeLayout>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+

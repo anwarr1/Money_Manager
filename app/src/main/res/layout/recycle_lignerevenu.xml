@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    >
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="15dp"
+
+        android:background="@drawable/modifier_fb"
+        android:padding="12dp">
+
+
+        <TextView
+            android:id="@+id/ti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="33dp"
+            android:text="TextView"
+            android:textColor="#020202"
+            android:textSize="15dp"
+
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.905"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.828" />
+
+        <TextView
+            android:id="@+id/ca"
+            android:layout_width="96dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:padding="2dp"
+            android:text="TextView"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.057" />
+
+        <ImageView
+            android:id="@+id/corbeille"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="356dp"
+            android:layout_marginStart="356dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/delete"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+        <TextView
+            android:id="@+id/de"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="36dp"
+            android:text="TextView"
+            android:textSize="21dp"
+            android:fontFamily="@font/abel"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.923" />
+
+        <TextView
+            android:id="@+id/da"
+            android:layout_width="71dp"
+            android:layout_height="18dp"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:textSize="13dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.978"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.057" />
+
+        <TextView
+            android:id="@+id/va"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="164dp"
+            android:layout_marginStart="164dp"
+            android:layout_marginTop="36dp"
+            android:padding="0dp"
+            android:text="TextView"
+            android:textStyle="italic"
+            android:textColor="#0E8313"
+            android:textSize="17dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

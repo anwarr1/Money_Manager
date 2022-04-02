@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChoixGoal">
+
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Nouvelle maison"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Nouvelle maison"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#417E9C"
+        android:elevation="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="-2dp"
+            android:layout_marginEnd="165dp"
+            android:layout_marginRight="165dp"
+            android:layout_marginTop="14dp"
+            android:layout_weight="1"
+
+            android:fontFamily="cursive"
+            android:text="Nouveau objectif"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="-1dp"
+            android:layout_marginEnd="369dp"
+            android:layout_marginRight="369dp"
+            android:layout_marginTop="13dp"
+            android:layout_weight="1"
+            android:onClick="retour"
+            android:text="✕"
+            android:textColor="@color/white"
+            android:textSize="32dp" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="qu'est-ce que vous économisez ?"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
+
+    <EditText
+        android:id="@+id/nomgoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Nom de votre objectif"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:text="Choisissez un objectif :"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="128dp"
+        android:layout_height="115dp"
+        android:layout_marginBottom="360dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/modifier_saisi_dep"
+        android:elevation="10dp"
+        android:onClick="car"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.194"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/relativeLayout"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <ImageView
+            android:layout_width="67dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="66dp"
+            android:layout_marginEnd="31dp"
+            android:layout_marginRight="31dp"
+            android:background="@drawable/goal_back"
+            android:padding="5dp"
+            app:srcCompat="@drawable/car" />
+
+        <TextView
+            android:id="@+id/tomobil"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:text="Nouvelle voiture"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="128dp"
+        android:layout_height="115dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/modifier_saisi_dep"
+        android:elevation="10dp"
+        android:onClick="school"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout3"
+        app:layout_constraintVertical_bias="0.266">
+
+
+        <ImageView
+            android:layout_width="67dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="70dp"
+            android:layout_marginEnd="29dp"
+            android:layout_marginRight="29dp"
+            app:srcCompat="@drawable/school" />
+
+        <TextView
+            android:id="@+id/education"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:text="Education"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="128dp"
+        android:layout_height="115dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/modifier_saisi_dep"
+        android:elevation="10dp"
+        android:onClick="holiday"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2"
+        app:layout_constraintVertical_bias="0.266">
+
+
+        <ImageView
+            android:layout_width="67dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="69dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            app:srcCompat="@drawable/holiday" />
+
+        <TextView
+            android:id="@+id/voyage"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:text="Voyage"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="128dp"
+        android:layout_height="115dp"
+        android:layout_marginBottom="360dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/modifier_saisi_dep"
+        android:elevation="10dp"
+        android:onClick="house"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/relativeLayout"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <ImageView
+            android:layout_width="67dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="76dp"
+            android:layout_marginEnd="27dp"
+            android:layout_marginRight="27dp"
+            app:srcCompat="@drawable/house" />
+
+        <TextView
+            android:id="@+id/maison"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="18dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginRight="7dp"
+            android:text="Nouvelle maison"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="128dp"
+        android:layout_height="115dp"
+        android:background="@drawable/modifier_saisi_dep"
+        android:elevation="10dp"
+        android:onClick="party"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:layout_constraintVertical_bias="0.902">
+
+
+        <ImageView
+            android:layout_width="67dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="71dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            app:srcCompat="@drawable/party" />
+
+        <TextView
+            android:id="@+id/fete"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:text="Fete"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

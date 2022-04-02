@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pfe">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="Jaybi"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:requestLegacyExternalStorage="true"
+
+        android:theme="@style/Theme.Pfe">
+        <activity
+            android:name=".pdf"
+            android:exported="false" />
+        <activity
+            android:name=".Saisir_objectif"
+            android:exported="false" />
+        <activity
+            android:name=".ChoixGoal"
+            android:exported="false" />
+        <activity
+            android:name=".Objectif"
+            android:exported="false" />
+        <activity
+            android:name=".Today_HistoryDep"
+            android:exported="false" />
+        <activity
+            android:name=".week_HistoryDep"
+            android:exported="false" />
+        <activity
+            android:name=".Month_HistoryDep"
+            android:exported="false" />
+        <activity
+            android:name=".Month_History"
+            android:exported="false" />
+        <activity
+            android:name=".Today_History"
+            android:exported="false" />
+        <activity
+            android:name=".ChoixHistory"
+            android:exported="false" />
+        <activity
+            android:name=".Week_History"
+            android:exported="false" />
+        <activity
+            android:name=".RevHistory"
+            android:exported="false" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".stats2"
+            android:exported="false" />
+        <activity
+            android:name=".AjoutRevenu"
+            android:exported="false" />
+        <activity
+            android:name=".capture"
+            android:exported="false"
+            android:theme="@style/zxing_CaptureTheme" />
+        <activity
+            android:name=".AjoutDepense"
+            android:exported="false" />
+        <activity
+            android:name=".ChoixSaisiDep"
+            android:exported="false" />
+        <activity
+            android:name=".Stats"
+            android:exported="false" />
+        <activity
+            android:name=".History"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".db2"
+            android:exported="false" />
+        <activity
+            android:name=".Log"
+            android:exported="false">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".landing"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+</manifest>

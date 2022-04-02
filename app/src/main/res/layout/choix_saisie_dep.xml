@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="183dp"
+        android:layout_height="292dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginBottom="182dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="146dp"
+        android:background="@drawable/modifier_saisi_dep"
+        android:elevation="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="25dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginRight="35dp"
+            android:elevation="10dp"
+            android:onClick="Onscan"
+            android:text="Scanner"
+            app:backgroundTint="#F4511E" />
+
+        <ImageView
+            android:layout_width="81dp"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="213dp"
+            android:layout_marginEnd="53dp"
+            android:layout_marginRight="53dp"
+            android:background="@drawable/qr" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="163dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/overpass_mono_bold"
+            android:text="Code à Barres"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="181dp"
+        android:layout_height="292dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="181dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginStart="120dp"
+        android:background="@drawable/modifier_saisi_dep"
+        android:elevation="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/saisirDep"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="29dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginRight="46dp"
+            android:onClick="onclickk"
+            android:text="Saisir"
+            app:backgroundTint="#039BE5" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="96dp"
+            android:layout_height="52dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="217dp"
+            android:layout_marginEnd="39dp"
+            android:layout_marginRight="39dp"
+            android:background="@drawable/hand"
+
+            />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="166dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/overpass_mono_bold"
+            android:text="Manuellement"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="384dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="187dp"
+        android:fontFamily="sans-serif-black"
+
+        android:text="Choisir comment saisir vos depenses :"
+
+        android:textColor="#000000"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+</RelativeLayout>
+

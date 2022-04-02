@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/h/.gradle/caches/transforms-3/f8ab65fdaee5430e2af72986cf7098a6/transformed/appcompat-1.4.0/res/layout/support_simple_spinner_dropdown_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_list_item_1.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable-anydpi-v24/ic_stat_name.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable-mdpi/ic_wave.xml" value="0.1" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/acc.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/argent.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/back_btn.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/bord.xml" value="1.8535714285714286" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/cible.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/cycle_icon.xml" value="0.24074074074074073" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/delete.xml" value="0.26615384615384613" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/deletefor.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/depense.xml" value="0.1" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/depense_back.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/fleche_taht.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/gift.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/goal_back.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/history.xml" value="0.1" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/holiday.xml" value="0.1" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/home.xml" value="0.1" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/house.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/ic_baseline_account_balance_wallet_24.xml" value="0.1" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.26615384615384613" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.1" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/ic_baseline_trending_down_24.xml" value="0.15462962962962962" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/ic_fb.xml" value="0.12447916666666667" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/ic_wave.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/icomenu.xml" value="0.1" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/logo_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/logout.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/modifier_backgr.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/modifier_dep.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/modifier_fb.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/modifier_googl.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/modifier_navbottom.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/modifier_pdp.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/modifier_radio.xml" value="0.26615384615384613" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/modifier_revenu.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/modifier_saisi_dep.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/month_calendar.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/no.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/pdf.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/piechart.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/qr.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/revenu.xml" value="0.1" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/revenu_back.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/round.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/rounded_corner_view.xml" value="0.2548828125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/save_back.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/share.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/spinne.xml" value="0.1" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/stats.xml" value="0.1" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/drawable/text.xml" value="0.2703125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout-large/activity_log.xml" value="0.190625" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout-small/activity_log.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_Log.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_ajout_depense.xml" value="0.25" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_ajout_revenu.xml" value="0.18947368421052632" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_choix_goal.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_choix_history.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_db2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_display.xml" value="0.264" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_essai.xml" value="0.2578125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_history.xml" value="0.2" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_log.xml" value="0.264" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_login2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_month_history.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_month_history_dep.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_nav_bar.xml" value="0.1" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_objectif.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_objectif2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_pdf.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_rev_dep.xml" value="0.2" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_rev_history.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_saisir_objectif.xml" value="0.16" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_stats.xml" value="0.4" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_stats2.xml" value="0.4" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_sup1.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_sup2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_today_history.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_today_history_dep.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_week_history.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/activity_week_history_dep.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/ajout_depense.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/ajout_revenu.xml" value="0.25" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/choix_saisi_dep.xml" value="0.13762626262626262" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/choix_saisie_dep.xml" value="0.3122200895713372" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/confirmersupprimer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/custom_navbottom.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/dialogue.xml" value="0.264" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/dialogueerreur.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/empty.xml" value="0.2578125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/fragment_first.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/fragment_second.xml" value="0.13125" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/fragment_stats2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/header.xml" value="0.1" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/landing.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/list_modifier.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/main_nav_drawer.xml" value="0.264" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/main_toolbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/recycle_ligne.xml" value="0.264" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/recycle_ligne_goal.xml" value="0.4" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/recycle_lignerevenu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/spinner.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/layout/spinner_dropdown.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/menu/bottom_nav.xml" value="0.4" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/menu/menumain.xml" value="0.264" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/menu/menuu.xml" value="0.5576171875" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/h/Desktop/pfe/app/src/main/res/mipmap-anydpi-v26/logo_round.xml" value="0.11458333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

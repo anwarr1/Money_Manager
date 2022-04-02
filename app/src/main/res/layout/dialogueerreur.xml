@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="333dp"
+        android:layout_height="235dp"
+        android:background="@drawable/modifier_saisi_dep"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <Button
+            android:id="@+id/okerreur"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="25dp"
+            android:layout_marginEnd="123dp"
+            android:layout_marginLeft="122dp"
+
+            android:layout_marginRight="123dp"
+            android:layout_marginStart="122dp"
+            android:background="@drawable/modifier_saisi_dep"
+            android:text="Ok"
+            android:textColor="#EA1313"
+            app:backgroundTint="#FFFFFF" />
+
+        <ImageView
+            android:layout_width="99dp"
+            android:layout_height="56dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="111dp"
+            android:layout_marginLeft="123dp"
+            android:layout_marginRight="111dp"
+            android:layout_marginStart="123dp"
+            android:layout_marginTop="41dp"
+            android:background="@drawable/no">
+
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="62dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="75dp"
+            android:layout_marginEnd="-68dp"
+            android:layout_marginLeft="68dp"
+            android:layout_marginRight="-68dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="120dp"
+            android:fontFamily="@font/abel"
+            android:text="Merci de vérifier votre saisie !"
+            android:textColor="@color/black"
+            android:textSize="19dp"
+            android:textStyle="bold">
+
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

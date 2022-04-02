@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backdep">
+
+
+    <Button
+        android:id="@+id/insertDep"
+        android:layout_width="167dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="76dp"
+        android:fontFamily="sans-serif-black"
+        android:onClick="insertRev"
+        android:text="Save"
+        app:backgroundTint="#FB2222"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Tdepense"
+        android:layout_width="239dp"
+        android:layout_height="50dp"
+
+
+        android:ems="10"
+        android:hint="Depense"
+        android:inputType="number"
+        android:keepScreenOn="true"
+        android:padding="9dp"
+        android:textColor="#E32929"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.355" />
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="239dp"
+        android:layout_height="49dp"
+
+
+        android:entries="@array/categdep"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.519" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="220dp"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/color_two"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.545" />
+
+    <EditText
+        android:id="@+id/descDep"
+        android:layout_width="239dp"
+        android:layout_height="50dp"
+        android:hint="(Description,note..."
+        android:padding="9dp"
+        android:textColor="#707070"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.593"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.685" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="69dp"
+        android:layout_height="69dp"
+        android:layout_marginEnd="324dp"
+        android:layout_marginRight="324dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#03A9F4"
+        android:gravity="center"
+        android:onClick="Onback"
+        android:text="←"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="36dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/nobile_bold"
+        android:text="DH"
+        android:textColor="#ED2A2A"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/Tdepense"
+        app:layout_constraintTop_toTopOf="@+id/Tdepense" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

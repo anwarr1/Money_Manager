@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abel</item>
+        <item>@font/advent_pro_bold</item>
+        <item>@font/allerta</item>
+        <item>@font/andika</item>
+        <item>@font/anton</item>
+        <item>@font/belgrano</item>
+        <item>@font/cute_font</item>
+        <item>@font/exo_light</item>
+        <item>@font/imprima</item>
+        <item>@font/nobile</item>
+        <item>@font/nobile_bold</item>
+        <item>@font/orienta</item>
+        <item>@font/oswald</item>
+        <item>@font/overpass_mono_bold</item>
+        <item>@font/wendy_one</item>
+    </array>
+</resources>

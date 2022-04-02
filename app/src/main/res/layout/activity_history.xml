@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".History"
+    android:id="@+id/drawer_layout">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/main_toolbar"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/NavHist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="0dp"
+                android:background="#417E9C"
+                app:itemIconTint="@color/white"
+                app:itemTextColor="@color/white"
+                app:menu="@menu/bottom_nav"></com.google.android.material.bottomnavigation.BottomNavigationView>
+
+            <Button
+                android:layout_width="287dp"
+                android:layout_height="78dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="58dp"
+                android:layout_marginRight="58dp"
+                android:layout_marginTop="28dp"
+                android:drawableLeft="@drawable/calender"
+                android:onClick="datte"
+                android:text="Chosir une date"
+                app:backgroundTint="#EC1818" />
+
+
+            <ListView
+                android:id="@+id/listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/NavHist"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="0dp"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginRight="-3dp"
+                android:layout_marginTop="249dp">
+
+
+            </ListView>
+
+            <TextView
+                android:id="@+id/lbl"
+                android:layout_width="202dp"
+                android:layout_height="51dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="511dp"
+                android:layout_marginEnd="63dp"
+                android:layout_marginRight="63dp"
+                android:fontFamily="@font/oswald"
+                android:textSize="24sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#EDE7E7">
+
+
+        <include layout="@layout/main_nav_drawer"></include>
+
+    </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>
+

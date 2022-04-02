@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/stats2"
+    app:startDestination="@id/stats22">
+
+    <fragment
+        android:id="@+id/stats22"
+        android:name="com.example.pfe.stats2"
+        android:label="fragment_stats2"
+        tools:layout="@layout/fragment_stats2" />
+    <activity
+        android:id="@+id/stats3"
+        android:name="com.example.pfe.Stats"
+        android:label="activity_stats"
+        tools:layout="@layout/activity_stats" />
+</navigation>
